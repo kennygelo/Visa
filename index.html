@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agendar Marcação - Exemplo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">[LOGO GENÉRICO]</div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Ajuda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <aside class="sidebar">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li class="active"><a href="#">Agendar Marcação</a></li>
+        <li><a href="#">Status do Pedido</a></li>
+      </ul>
+    </aside>
+
+    <section class="content">
+      <h1>Agendar Marcação</h1>
+      <p>Escolha o país de residência e o centro de solicitação:</p>
+
+      <form class="appointment-form">
+        <label for="country">País de Residência</label>
+        <select id="country">
+          <option>Angola</option>
+          <option>Brasil</option>
+          <option>Portugal</option>
+        </select>
+
+        <label for="center">Centro de Solicitação</label>
+        <select id="center">
+          <option>Luanda</option>
+          <option>Lisboa</option>
+          <option>São Paulo</option>
+        </select>
+
+        <button type="submit">Prosseguir</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Site Exemplo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
